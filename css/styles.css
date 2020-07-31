@@ -1,0 +1,170 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family:"Montserrat";
+  font-weight: 900;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* Download Button */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Heading Section */
+
+.big-heading{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Container */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Title Section */
+
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Features Section*/
+
+#features{
+  position: relative;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials Sections */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press Sections */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.press-icon{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* Pricing Sections */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* Call to Action Sections */
+
+/* Footer Sections */
+
+.socmed-icon{
+  margin: 20px 10px;
+}
+
+/* Responsive */
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+}

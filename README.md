@@ -1,2 +1,1 @@
-# tindog
-Simple landing page (tindog app)
+TinDog Starting Files
